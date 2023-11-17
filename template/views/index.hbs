@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <link rel="stylesheet" href="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="./script/script.js"></script>
+        <title>Weather Home</title>
+    </head>
+    <body>
+    {{>header}}
+        <h1>{{title}}</h1>
+        <div class="form">
+            <div class="form-heading">Search for Weather condition by Location</div>
+            <div class="form-input">
+                <label for="location" id="location">Type your Location</label>
+                <input type="text" id="location" placeholder="Enter Location">
+                <div class="form-buttons">
+                    <button type="submit" id="search">Search</button>
+                    <button type="reset" id="clear">Clear</button>
+                </div>
+            </div>
+            <div class="search-result">
+                <div class="search-result-heading">Search Result</div>
+                <div class="search-result-content">
+                    <div class="search-result-item">
+                        <div class="search-result-item-heading">Location : <span></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    {{>footer}}
+    </body>
+</html>

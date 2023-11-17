@@ -1,0 +1,26 @@
+{
+  "name": "nodeprojects",
+  "version": "1.0.0",
+  "description": "Series of NodeJs apps",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lightmanBro/weather-app.git"
+  },
+  "author": "Omotoso David",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lightmanBro/weather-app/issues"
+  },
+  "homepage": "https://github.com/lightmanBro/weather-app#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "hbs": "^4.2.0",
+    "validator": "^10.8.0",
+    "yargs": "^17.7.2",
+    "express": "^4.18.2"
+  }
+}

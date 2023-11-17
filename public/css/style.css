@@ -1,0 +1,174 @@
+*{
+margin:none;
+padding:none;
+box-sizing:border-box;
+font-size:62.5%;
+}
+body{
+font-family:Arial, Helvetica, sans-serif;
+background-color:white;
+}
+.heading{
+background-color:grey;
+padding:1rem;
+padding-inline:1rem;
+}
+h1{
+color:grey;
+font-size:3rem;
+text-align:center;
+}
+a{
+text-decoration:none;
+font-weight:bold;
+font-size:1.5rem;
+color:white;
+}
+/*Home Page*/
+.form{
+border:.25rem solid #eee;
+padding:1.5rem;
+width:50rem;
+height:60rem;
+margin:auto;
+}
+.form-heading{
+color:grey;
+text-align:center;
+font-size:1.5rem;
+border-bottom:.25rem solid #eee;
+}
+label{
+display:block;
+font-size:1.5rem;
+text-align:center;
+padding:1rem;
+}
+.form-input{
+display:flex;
+justify-content:space-between;
+flex-direction:column;
+}
+.form-input input{
+    width:80%;
+    padding:.5rem;
+    border:.2rem solid grey;
+    height:5rem;
+    margin:auto;
+    font-size:1.5rem;
+    outline:0;
+}
+.form-buttons{
+display:flex;
+justify-content:space-evenly;
+padding:.5rem
+}
+
+.form-buttons button{
+    padding:.5rem;
+    background-color:grey;
+    border:none;
+    height:3.5rem;
+    width:10rem;
+    font-size1.5rem
+    margin:auto;
+    font-size:1.5rem;
+    outline:0;
+    color:white;
+}
+.form-buttons button:hover{
+    background-color:#eee;
+    color:grey;
+}
+.search-result-heading{
+text-align:center;
+color:grey;
+font-size:2.5rem;
+padding-top:2rem;
+border-bottom:.25rem solid #eee;
+}
+.search-result-item-heading{
+color:grey;
+font-size:2.5rem;
+padding:2rem;
+}
+/*About page*/
+.about-heading{
+}
+
+.about-author{
+    margin:auto;
+    width:40%;
+    height:60vh;
+    border:.25rem solid #eee;
+}
+.author-name{
+background:grey;
+font-size:1rem;
+text-align:center;
+color:white;
+padding:.5rem;
+}
+.author-social{
+display:flex;
+align-items:center;
+justify-content:center;
+width:100%;
+gap:.5rem;
+}
+.author-image{
+width:100%;
+height:80%;
+display:flex;
+justify-content:center;
+margin-bottom:2rem
+}
+.social-button{
+text-decoration:none;
+color:white;
+background:grey;
+padding:1rem
+}
+.author-image img{
+height:100%;
+}
+/*Help Page*/
+.help-catalog-container{
+display:flex;
+align-items:center;
+justify-content:center;
+width:100%;
+gap:.5rem;
+}
+.help-catalog {
+border:#eee .25rem solid;
+width:33.3%;
+height:65vh;
+}
+.help-catalog-header{
+    background:#eee;
+    color:black;
+    font-weight:;
+    text-align:center;
+    padding:1.5rem;
+    font-size:1.5rem;
+}
+.help-catalog-questions{
+    gap:.5rem;
+    padding:.25rem;
+}
+.help-question{
+    background:#eee;
+    padding:1.5rem;
+    width:100%;
+    font-size:1.25rem;
+    text-align:left;
+    justify-text:space;
+    margin-top:.25rem;
+}
+footer{
+background-color:grey;
+padding:2rem;
+text-align:center;
+font-size:1.5rem;
+color:white;}
