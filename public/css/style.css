@@ -8,6 +8,10 @@ body{
 font-family:Arial, Helvetica, sans-serif;
 background-color:white;
 }
+.home {
+    background:url(../img/pexels-james-wheeler-1486976.jpg);
+    background-size:cover;
+}
 .heading{
 background-color:#2ecc71;
 padding:1rem;
@@ -26,11 +30,13 @@ color:white;
 }
 /*Home Page*/
 .form{
-border:.25rem solid #2ecc71;
+background:white;
 padding:1.5rem;
+border-radius:.25rem;
 width:50rem;
 height:60rem;
-margin:auto;
+margin:2rem auto;
+box-shadow:0 .25rem .5rem .15rem grey;
 }
 .form-heading{
 color:#2ecc71;
@@ -53,6 +59,7 @@ flex-direction:column;
     width:80%;
     padding:.5rem;
     border:.2rem solid #2ecc71;
+    border-radius:.2rem;
     height:5rem;
     margin:auto;
     font-size:1.5rem;
@@ -68,6 +75,7 @@ padding:.5rem
     padding:.5rem;
     background-color:#2ecc71;
     border:none;
+    border-radius:.2rem;
     height:3.5rem;
     width:10rem;
     font-size1.5rem
@@ -77,6 +85,7 @@ padding:.5rem
     color:white;
 }
 .form-buttons button:hover{
+    transition:all .5s;
     background-color:#eee;
     color:grey;
 }
@@ -99,16 +108,25 @@ padding:2rem;
 .about-author{
     margin:auto;
     width:40%;
-    height:60vh;
-    border:.25rem solid #eee;
+    height:fit-content;
+    margin-bottom:2rem;
+    box-shadow:0 .25rem .5rem .15rem grey;
 }
 .author-name{
 background:grey;
-font-size:1rem;
+font-size:1.5rem;
 text-align:center;
 color:white;
-padding:.5rem;
+padding:2.5rem;
 }
+.author-details{
+font-size:2.5rem;
+text-align:center;
+text-wrap:break-word;
+padding:0 2rem;
+}
+.author-details b{
+font-size:2rem;}
 .author-social{
 display:flex;
 align-items:center;
@@ -121,13 +139,14 @@ width:100%;
 height:80%;
 display:flex;
 justify-content:center;
-margin-bottom:2rem
+margin:2rem 0;
 }
 .social-button{
 text-decoration:none;
 color:white;
 background:grey;
-padding:1rem
+padding:1rem;
+margin-bottom:2rem;
 }
 .author-image img{
 height:100%;

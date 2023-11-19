@@ -9,11 +9,11 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <link rel="stylesheet" href="./css/style.css">
-        <script src="./script/script.js"></script>
         <title>Weather Home</title>
     </head>
     <body>
-    {{>header}}
+    <div class="home">
+        {{>header}}
         <h1>{{title}}</h1>
         <div class="form">
             <div class="form-heading">Search for Weather condition by Location</div>
@@ -35,6 +35,9 @@
             </div>
         </div>
 
-    {{>footer}}
+        {{>footer}}
+    </div>
+
+    <script src="./script/script.js"></script>
     </body>
 </html>

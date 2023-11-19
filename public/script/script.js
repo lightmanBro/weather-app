@@ -1,5 +1,15 @@
+    const button = document.querySelector('#search')
+    const clear = document.querySelector('#clear')
+    const display = document.querySelector('.search-result-item-heading span');
 
+    button.addEventListener('click',(e)=>{
+        display.textContent = 'Loading...';
+        setTimeout(()=>{
+            display.textContent = 'Data has arrived'
+        },2000)
+    })
 
-
-    console.log("Connected to the index page")
-    console.log(" I want to change this file so i can test git commits")
+    clear.addEventListener('click',(e)=>{
+         display.textContent = " "
+         clearTimeout();
+    })
